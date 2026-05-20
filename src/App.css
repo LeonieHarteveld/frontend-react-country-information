@@ -1,0 +1,40 @@
+.region-Asia {
+    color: red;
+}
+
+.region-Europe {
+    color: yellow;
+}
+
+.region-Africa {
+    color: blue;
+}
+
+.region-Americas {
+    color: green;
+}
+
+.region-Oceania {
+    color: purple;
+}
+
+.country-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 1rem 6rem;
+}
+
+.country-flag {
+    width: 4rem;
+}
+
+.country-title {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+

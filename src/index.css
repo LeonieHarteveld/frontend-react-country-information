@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Roboto+Condensed:wght@300&display=swap');
 
-body {
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,4 +9,9 @@ body {
 
 h1, h2, h3 {
   font-family: 'Gochi Hand', cursive;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
 }
