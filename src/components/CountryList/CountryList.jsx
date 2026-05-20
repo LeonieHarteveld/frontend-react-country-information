@@ -10,7 +10,7 @@ function CountryList({countries}) {
 
                     <div className="country-info" key={country.name.common}>
                         <div className="country-title">
-                            <img src={country.flags.png} alt={country.name.common}/>
+                            <img className="country-flag" src={country.flags.png} alt={country.name.common}/>
                             <h4 className={`region-${country.region}`}>{country.name.common}</h4>
                         </div>
                         <p>Has a population of: {country.population}</p>
